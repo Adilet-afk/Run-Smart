@@ -1,0 +1,30 @@
+.advantage {
+  padding: 71px 0 95px;
+  text-align: center;
+}
+.advantage__title {
+  font-family: MuseoSansCyrl-700, AdobeInvisFont, MyriadPro-Regular, sans-serif;
+  font-size: 30px;
+  text-align: center;
+  margin-bottom: 65px;
+}
+.advantage__card-title {
+  font-family: MuseoSansCyrl-700, AdobeInvisFont, MyriadPro-Regular, sans-serif;
+  font-size: 18px;
+  text-align: center;
+  margin: 38px 0 26px;
+}
+.advantage__card-subtitle {
+  font-family: MuseoSansCyrl-700, AdobeInvisFont, MyriadPro-Regular, sans-serif;
+  font-size: 14px;
+  text-align: center;
+}
+.advantage__img {
+  max-width: 100%;
+}
+.advantage__link {
+  color: #b01111;
+}
+.advantage__link:hover {
+  color: blue;
+}

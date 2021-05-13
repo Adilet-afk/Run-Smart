@@ -1,0 +1,156 @@
+.catalog{
+  padding-bottom: 93px;
+  &__title{
+    font-family: MuseoSansCyrl-700, AdobeInvisFont, MyriadPro-Regular, sans-serif;
+    font-size: 30px;
+    color: #0D0D0D;
+    text-align: center;
+    margin-bottom: 60px;
+  }
+  &__content {
+    display: none;
+    &_active {
+      display: block;
+    }
+  }
+  &__caption{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin-bottom: 59px;
+  }
+
+  &__item{
+    width: 200px;
+    height: 50px;
+    margin-right: 10px;
+    transform: skew(-22deg);
+    border: 1px solid #D0D0D0;
+    line-height: 50px;
+    &_active{
+      background-color: #c70101;
+      border: none;
+      color: white;
+    }
+    &:last-child{
+      margin-right: 0;
+    }
+  }
+
+  .skew_text{
+    transform: skew(22deg);
+    text-align: center;
+    font-family: MuseoSansCyrl-500 ,sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    cursor: pointer;
+  }
+  &__card{
+    padding: 20px 20px 25px;
+    border: 2px solid #e8e8e8;
+    overflow: hidden;
+    margin-bottom: 20px;
+  }
+  &__inner{
+    display: flex;
+    width: calc(200% + 44px);
+  }
+  &__front{
+    width: 100%;
+    text-align: center;
+    padding-right: 20px;
+    transition: .3s;
+  }
+  &__front_active{
+    transform: translateX(-100%);
+    transition: .3s;
+  }
+  &__back{
+    width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+    transition: .3s;
+  }
+  &__back_active{
+    transform: translateX(-100%);
+    transition: .3s;
+  }
+  &__backOff{
+    font-family: MuseoSansCyrl-500, AdobeInvisFont, MyriadPro-Regular, sans-serif;
+    font-size: 14px;
+    color: #c70101;
+    position: relative;
+    left: calc(50% + -25px);
+    transform: translate(-50%);
+    bottom: 12px;
+    text-decoration: underline;
+    text-transform: uppercase;
+  }
+  &__menu{
+    position: relative;
+    list-style-type: square;
+    color: #c70101;
+    height: 328px;
+    &Item{
+      margin-bottom: 22px;
+      span{
+        font-family: MuseoSansCyrl-300, AdobeInvisFont, MyriadPro-Regular, sans-serif;
+        font-size: 16px;
+        color: #555555;
+      }
+    }
+  }
+  &__frontTitle{
+    font-family: MuseoSansCyrl-700, AdobeInvisFont, MyriadPro-Regular, sans-serif;
+    font-size: 19px;
+    color: #0d0d0d;
+    margin: 20px 0 16px;
+  }
+  &__frontSubtitle{
+    font-family: MuseoSansCyrl-300, AdobeInvisFont, MyriadPro-Regular, sans-serif;
+    font-size: 16px;
+    color: #0d0d0d;
+    margin-bottom: 17px;
+  }
+  &__frontMore{
+    font-family: MuseoSansCyrl-500, AdobeInvisFont, MyriadPro-Regular, sans-serif;
+    font-size: 14px;
+    color: #c70101;
+    text-decoration: underline;
+    text-transform: uppercase;
+  }
+  &__buy{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 16px;
+    border-top: 1px solid #707070;
+    margin-top: 19px;
+  }
+  &__oldPrice{
+    font-family: MuseoSansCyrl-700, AdobeInvisFont, MyriadPro-Regular, sans-serif;
+    font-size: 14px;
+    color: #555555;
+    text-decoration: line-through;
+  }
+  &__newPrice{
+    font-family: MuseoSansCyrl-700, AdobeInvisFont, MyriadPro-Regular, sans-serif;
+    font-size: 20px;
+    color: #050505;
+    margin-top: 6px;
+  }
+  &__btn{
+    font-family: MuseoSansCyrl-500, AdobeInvisFont, MyriadPro-Regular, sans-serif;
+    font-size: 14px;
+    color: #ffffff;
+    background-color: #C70101;
+    width: 131px;
+    height: 40px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-transform: uppercase;
+  }
+}

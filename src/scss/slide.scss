@@ -1,0 +1,20 @@
+.slider{
+  margin: auto;
+  padding: 108px 0 98px;
+  .owl-carousel .owl-item img{
+    width: 750px;
+    margin: 0 auto;
+  }
+  .owl-nav .owl-prev{
+    background: url("../images/slide/chevron-left-solid@1X.png") no-repeat;
+    height: 50px;
+    width: 31px;
+    @include posit (absolute, $top: 40%, $left: 20px)
+  }
+  .owl-nav .owl-next{
+    background: url('../images/slide/chevron-right-solid@1X.png') no-repeat;
+    height: 50px;
+    width: 31px;
+    @include posit (absolute, $top: 40%, $right: 15px)
+  }
+}

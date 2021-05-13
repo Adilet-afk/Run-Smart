@@ -1,0 +1,72 @@
+.main {
+  background: url("../images/img/bg1@1X.png")no-repeat;
+  background-size: cover;
+  padding: 177px 0 50px 0;
+  text-align: end;
+  &__title{
+    font-size: 42px;
+    color: #fff;
+    font-family: AdobeInvisFont,MyriadPro-Regular, sans-serif;
+    font-weight: normal;
+    font-style: normal;
+  }
+  &__subtitle {
+    color: white;
+    font-family: MuseoSansCyrl-700, AdobeInvisFont, MyriadPro-Regular, sans-serif;
+    font-size: 42px;
+  }
+  &__menu {
+    display: flex;
+    margin-top: 65px;
+    justify-content: flex-end;
+    text-align: right;
+    margin-bottom: 67px;
+  }
+  &__pic {
+    margin-right: 3%;
+    text-align: center;
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+  &__img {
+    margin-bottom: 15px;
+  }
+  &__img-text {
+    color: white;
+    font-family: MuseoSansCyrl-500, AdobeInvisFont, MyriadPro-Regular, sans-serif;
+    font-size: 14px;
+  }
+  &__text {
+    display: flex;
+    justify-content: flex-end;
+  }
+  &__txt {
+    margin-right: 6px;
+    color: white;
+    font-family: MuseoSansCyrl-500, AdobeInvisFont, MyriadPro-Regular, sans-serif;
+    font-size: 16px;
+  }
+  &__btn {
+    padding: 10px 25px;
+    margin-bottom: 20px;
+    color: white;
+    font-family: MuseoSansCyrl-500, AdobeInvisFont, MyriadPro-Regular, sans-serif;
+    font-size: 16px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    background-color: #c70101;
+  }
+  &__btn:hover {
+    background-color: #e63636 ;
+  }
+  &__link {
+    color: white;
+    font-family: MuseoSansCyrl-500, AdobeInvisFont, MyriadPro-Regular, sans-serif;
+    font-size: 16px;
+  }
+  &__link:hover {
+    color: blue;
+  }
+}

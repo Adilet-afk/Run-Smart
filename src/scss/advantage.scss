@@ -1,0 +1,30 @@
+.advantage{
+  padding: 71px 0 95px;
+  text-align: center;
+  &__title{
+    font-family: MuseoSansCyrl-700,AdobeInvisFont,MyriadPro-Regular, sans-serif;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 65px;
+  }
+  &__card-title{
+    font-family: MuseoSansCyrl-700,AdobeInvisFont,MyriadPro-Regular, sans-serif;
+    font-size: 18px;
+    text-align: center;
+    margin: 38px 0 26px;
+  }
+  &__card-subtitle{
+    font-family: MuseoSansCyrl-700,AdobeInvisFont,MyriadPro-Regular, sans-serif;
+    font-size: 14px;
+    text-align: center;
+  }
+  &__img{
+    max-width: 100%;
+  }
+  &__link{
+    color: #b01111;
+  }
+  &__link:hover{
+    color: blue;
+  }
+}

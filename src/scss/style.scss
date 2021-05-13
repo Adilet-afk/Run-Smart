@@ -1,0 +1,41 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container{
+  max-width: 1140px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.go-top{
+  display: none;
+  text-align: center;
+  line-height: 25px;
+  width: 100px;
+  height: 25px;
+  background: red;
+  color: white;
+  text-decoration: none;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  bottom: 100px;
+  right: 10px;
+  border-radius: 7px;
+  cursor: pointer;
+}
+
+@import "media";
+@import "text";
+@import "header";
+@import "main";
+@import "advantage";
+@import "consult";
+@import "slide";
+@import "catalog";
+@import "comments";
+@import "overlay";
+@import "footer";

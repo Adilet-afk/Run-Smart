@@ -1,0 +1,333 @@
+@media (max-width: 1024px) {
+  .container .main__title {
+    margin: 20px 0 20px;
+  }
+
+  .container .main__subtitle {
+    margin-bottom: 20px;
+  }
+}
+@media (max-width: 992px) {
+  .container .header__nav {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .main__title {
+    text-align: center;
+  }
+
+  .main__subtitle {
+    text-align: center;
+  }
+
+  .container .main__menu {
+    justify-content: center;
+  }
+
+  .main__const {
+    text-align: center;
+  }
+
+  .container .main__text {
+    justify-content: center;
+  }
+
+  .slider__img-1 {
+    max-width: 620px;
+  }
+
+  .slider__img-2 {
+    max-width: 630px;
+  }
+
+  .slider__img-3 {
+    max-width: 630px;
+  }
+
+  .consult__title {
+    text-align: center;
+  }
+
+  .consult__subtitle {
+    text-align: center;
+  }
+
+  .form {
+    display: block;
+    margin: 0 auto;
+  }
+
+  .container .main__title {
+    margin: 20px 0 20px;
+  }
+
+  .container .main__subtitle {
+    margin-bottom: 20px;
+  }
+}
+@media (max-width: 768px) {
+  .container .col-4 {
+    width: 50%;
+    margin: auto;
+  }
+
+  .slider__img-1 {
+    max-width: 620px;
+  }
+
+  .slider__img-2 {
+    max-width: 630px;
+  }
+
+  .slider__img-3 {
+    max-width: 630px;
+  }
+
+  .container .main__title {
+    font-size: 27px;
+    margin: 20px 0 20px;
+  }
+
+  .container .main__subtitle {
+    font-size: 25px;
+    margin-bottom: 20px;
+  }
+}
+@media (max-width: 576px) {
+  .col-4 {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .container .col-sm-6 {
+    width: 100%;
+  }
+
+  .container .main__title {
+    font-size: 27px;
+    margin: 20px 0 20px;
+  }
+
+  .container .main__subtitle {
+    font-size: 17px;
+    margin-bottom: 20px;
+  }
+
+  .slider__img-1 {
+    max-width: 440px;
+  }
+
+  .slider__img-2 {
+    max-width: 450px;
+  }
+
+  .slider__img-3 {
+    max-width: 450px;
+  }
+
+  .catalog__caption {
+    align-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+
+  .catalog__item {
+    margin-bottom: 10px;
+  }
+
+  .container .review__comment {
+    display: block;
+  }
+
+  .container .review__maincomm {
+    margin-left: 0;
+  }
+
+  .container .header__nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+
+  .container .main__title {
+    font-size: 37px;
+  }
+
+  .container .main__subtitle {
+    font-size: 30px;
+  }
+
+  .container .main__btn {
+    font-size: 14px;
+  }
+
+  .container .main__link {
+    font-size: 15px;
+  }
+
+  .container .advantage__title {
+    font-size: 28px;
+  }
+
+  .container .consult__title {
+    font-size: 25px;
+  }
+
+  .container .consult__subtitle {
+    font-size: 19px;
+  }
+
+  .container .catalog__title {
+    font-size: 27px;
+  }
+
+  .container .review__title {
+    font-size: 27px;
+  }
+}
+@media (max-width: 425px) {
+  .slider__img-1 {
+    max-width: 305px;
+  }
+
+  .slider__img-2 {
+    max-width: 310px;
+  }
+
+  .slider__img-3 {
+    max-width: 310px;
+  }
+
+  .container .main__title {
+    font-size: 27px;
+    margin: 20px 0 20px;
+  }
+
+  .container .main__subtitle {
+    font-size: 17px;
+    margin-bottom: 20px;
+  }
+
+  .container .main__title {
+    font-size: 35px;
+  }
+
+  .container .main__subtitle {
+    font-size: 21px;
+  }
+
+  .container .consult__title {
+    font-size: 20px;
+  }
+
+  .container .consult__subtitle {
+    font-size: 18px;
+  }
+
+  .container .col-4 {
+    width: 100%;
+  }
+}
+@media (max-width: 375px) {
+  .container .catalog__title {
+    font-size: 22px;
+  }
+
+  .container .main__title {
+    font-size: 27px;
+    margin: 20px 0 20px;
+  }
+
+  .container .main__subtitle {
+    font-size: 17px;
+    margin-bottom: 20px;
+  }
+
+  .slider__img-1 {
+    max-width: 250px;
+  }
+
+  .slider__img-2 {
+    max-width: 255px;
+  }
+
+  .slider__img-3 {
+    max-width: 255px;
+  }
+
+  .container .col-4 {
+    width: 100%;
+  }
+
+  .go-top {
+    width: 50px;
+    font-size: 30px;
+    line-height: inherit;
+  }
+
+  .text {
+    display: none;
+  }
+}
+@media (max-width: 320px) {
+  .slider__img-1 {
+    max-width: 190px;
+  }
+
+  .slider__img-2 {
+    max-width: 195px;
+  }
+
+  .slider__img-3 {
+    max-width: 195px;
+  }
+
+  .container .main__title {
+    font-size: 27px;
+    margin: 20px 0 20px;
+  }
+
+  .container .main__subtitle {
+    font-size: 17px;
+    margin-bottom: 20px;
+  }
+
+  .container .main__img-text {
+    font-size: 13px;
+  }
+
+  .container .main__btn {
+    font-size: 12px;
+  }
+
+  .container .main__link {
+    font-size: 13px;
+  }
+
+  .container .advantage__title {
+    font-size: 23px;
+  }
+
+  .container .consult__subtitle {
+    font-size: 15px;
+  }
+
+  .container .consult__title {
+    font-size: 15px;
+  }
+
+  .container .col-4 {
+    width: 100%;
+  }
+
+  .go-top {
+    width: 50px;
+    font-size: 30px;
+    line-height: inherit;
+  }
+
+  .text {
+    display: none;
+  }
+}
